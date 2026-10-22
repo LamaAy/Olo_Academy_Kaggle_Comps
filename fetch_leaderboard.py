@@ -30,7 +30,7 @@ roster_path = Path("roster.csv")
 if roster_path.exists():
     with roster_path.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
-            slug, team, member = (row.get(x, "").strip() for x in ("competition", "team", "member"))
+            slug, team, member = ((row.get(x) or "").strip() for x in ("competition", "team", "member"))
             if slug and team and member and normalized(member) not in {normalized(m) for m in roster[(slug, normalized(team))]}:
                 roster[(slug, normalized(team))].append(member)
 
