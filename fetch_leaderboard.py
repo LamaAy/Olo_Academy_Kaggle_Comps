@@ -61,8 +61,17 @@ def get_ranking(slug):
         if not score or normalized(name) in seen:
             continue
         seen.add(normalized(name))
-        teams.append({"team": name, "score": score,
-                      "rank": int(explicit_rank) if explicit_rank.isdigit() else len(teams) + 1})
+        members = [
+            m.strip()
+            for m in field(row, "TeamMemberUserNames").split(",")
+            if m.strip()
+        ]
+        teams.append({
+            "team": name,
+            "score": score,
+            "members": members,
+            "rank": int(explicit_rank) if explicit_rank.isdigit() else len(teams) + 1
+        })
     # Round 1 final (private) positions visually verified on Kaggle on Oct 22, 2026.
     # Unverified positions 8+ continue to use Kaggle's downloadable ordering,
     # which may be public rather than private; they must not be called final.
@@ -116,7 +125,7 @@ for i, (title, slug) in enumerate(COMPETITIONS):
                             if not unicodedata.combining(c)).split())
         key_team = clean_name(t["team"])
         # Resolve explicit roster, even where Kaggle display names have decorations.
-        members = roster.get((slug, normalized(t["team"]))) or roster.get((slug, key_team))
+        members = t.get("members") or roster.get((slug, normalized(t["team"]))) or roster.get((slug, key_team))
         if not members:
             for (rslug, rteam), rmem in roster.items():
                 if rslug == slug and clean_name(rteam) == key_team:
