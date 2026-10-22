@@ -97,11 +97,9 @@ for i, (title, slug) in enumerate(COMPETITIONS):
                    "url": f"https://www.kaggle.com/competitions/{slug}/leaderboard",
                    "status": status, "teams": len(teams)})
     for t in teams:
-        # Do not score non-verified Round 1 positions as though they are final.
-        if i == 0 and not t.get("verified_private"):
-            continue
+        # Include all teams; unverified Round 1 ranks remain provisional.
         members = roster.get((slug, normalized(t["team"])))
-        provisional = not bool(members)
+        provisional = not bool(members) or (i == 0 and not t.get("verified_private"))
         if not members:
             members = [t["team"]]
             unmapped.append({"competition": slug, "team": t["team"]})
