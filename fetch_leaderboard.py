@@ -63,7 +63,20 @@ def get_ranking(slug):
         seen.add(normalized(name))
         teams.append({"team": name, "score": score,
                       "rank": int(explicit_rank) if explicit_rank.isdigit() else len(teams) + 1})
-    # Kaggle's downloaded leaderboard is normally in rank order.
+    # Round 1 final (private) positions visually verified on Kaggle on Oct 22, 2026.
+    # Unverified positions 8+ continue to use Kaggle's downloadable ordering,
+    # which may be public rather than private; they must not be called final.
+    if slug == "olo-academy-arabic-classification":
+        verified = {"ahmed8529393": (1, "0.98"), "aaf": (2, "0.98"),
+                    "meganut": (3, "0.96"), "osama hurubi": (4, "0.94"),
+                    "sf73": (5, "0.94"), "43uo": (6, "0.94"), "rynq-18": (7, "0.94")}
+        for team in teams:
+            key = normalized(team["team"])
+            if key in verified:
+                team["rank"], team["score"] = verified[key]
+                team["verified_private"] = True
+            else:
+                team["verified_private"] = False
     teams.sort(key=lambda t: t["rank"])
     return teams
 
@@ -84,6 +97,9 @@ for i, (title, slug) in enumerate(COMPETITIONS):
                    "url": f"https://www.kaggle.com/competitions/{slug}/leaderboard",
                    "status": status, "teams": len(teams)})
     for t in teams:
+        # Do not score non-verified Round 1 positions as though they are final.
+        if i == 0 and not t.get("verified_private"):
+            continue
         members = roster.get((slug, normalized(t["team"])))
         provisional = not bool(members)
         if not members:
@@ -108,6 +124,7 @@ payload = {
     "competition": "OLO Academy · Cumulative Individual Rankings",
     "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     "rounds": rounds, "people": ranking, "unmapped": unmapped,
+    "note": "Round 1 private ranks 1–7 verified. Ranks 8+ await final private export. Missing rosters are provisional.",
     "scoring": "Team rank points: 1st 100, 2nd 90, 3rd 80, etc. (minimum 10). Each member gets team points ÷ registered team size.",
 }
 (OUT / "leaderboard.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
