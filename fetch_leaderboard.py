@@ -71,7 +71,7 @@ def get_ranking(slug):
                     "meganut": (3, "0.96"), "osama hurubi": (4, "0.94"),
                     "sf73": (5, "0.94"), "43uo": (6, "0.94"), "rynq-18": (7, "0.94")}
         for team in teams:
-            key = normalized(team["team"])
+            key = " ".join("".join(c for c in __import__("unicodedata").normalize("NFKD", team["team"].casefold()) if not __import__("unicodedata").combining(c)).split())
             if key in verified:
                 team["rank"], team["score"] = verified[key]
                 team["verified_private"] = True
@@ -98,19 +98,56 @@ for i, (title, slug) in enumerate(COMPETITIONS):
                    "status": status, "teams": len(teams)})
     for t in teams:
         # Include all teams; unverified Round 1 ranks remain provisional.
-        members = roster.get((slug, normalized(t["team"])))
-        provisional = not bool(members) or (i == 0 and not t.get("verified_private"))
+        # Never treat an unknown-size team as one individual.
+        # These counts were verified from the Round 1 final Kaggle screenshot.
+        verified_sizes = {
+            ("olo-academy-arabic-classification", "ahmed8529393"): 1,
+            ("olo-academy-arabic-classification", "aaf"): 3,
+            ("olo-academy-arabic-classification", "meganut"): 1,
+            ("olo-academy-arabic-classification", "osama hurubi"): 1,
+            ("olo-academy-arabic-classification", "sf73"): 2,
+            ("olo-academy-arabic-classification", "43uo"): 1,
+            ("olo-academy-arabic-classification", "rynq-18"): 1,
+        }
+        import unicodedata
+        def clean_name(name):
+            # Normalize decorated Kaggle names for matching (e.g. AAF diacritics).
+            return " ".join("".join(c for c in unicodedata.normalize("NFKD", name.casefold())
+                            if not unicodedata.combining(c)).split())
+        key_team = clean_name(t["team"])
+        # Resolve explicit roster, even where Kaggle display names have decorations.
+        members = roster.get((slug, normalized(t["team"]))) or roster.get((slug, key_team))
         if not members:
-            members = [t["team"]]
-            unmapped.append({"competition": slug, "team": t["team"]})
-        share = round(rank_points(t["rank"]) / len(members), 2)
-        for member in members:
+            for (rslug, rteam), rmem in roster.items():
+                if rslug == slug and clean_name(rteam) == key_team:
+                    members = rmem
+                    break
+        expected = verified_sizes.get((slug, key_team))
+        if members and expected and len(members) != expected:
+            raise ValueError(f"Roster count mismatch for {t['team']}: expected {expected}, got {len(members)}")
+        if members:
+            team_size = len(members)
+            named_members = members
+        elif expected == 1:
+            team_size = 1
+            named_members = [t["team"]]
+        elif expected and expected > 1:
+            team_size = expected
+            named_members = [f"{t['team']} — member {n} (name needed)" for n in range(1, expected + 1)]
+            unmapped.append({"competition": slug, "team": t["team"], "needed": expected})
+        else:
+            unmapped.append({"competition": slug, "team": t["team"], "needed": None})
+            continue  # Unknown number of members: cannot allocate individual points fairly.
+        share = round(rank_points(t["rank"]) / team_size, 2)
+        for member in named_members:
             key = normalized(member)
             person = persons.setdefault(key, {"member": member, "total": 0.0, "rounds": [None] * len(COMPETITIONS)})
             person["total"] = round(person["total"] + share, 2)
             person["rounds"][i] = {"team": t["team"], "rank": t["rank"],
                                   "score": t["score"], "points": share,
-                                  "team_size": len(members), "provisional": provisional}
+                                  "team_size": team_size,
+                                  "provisional": (not bool(members)) or (i == 0 and not t.get("verified_private"))}
+
 ranking = sorted(persons.values(), key=lambda p: (-p["total"], p["member"].casefold()))
 for rank, person in enumerate(ranking, 1):
     person["rank"] = rank
@@ -122,7 +159,7 @@ payload = {
     "competition": "OLO Academy · Cumulative Individual Rankings",
     "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     "rounds": rounds, "people": ranking, "unmapped": unmapped,
-    "note": "Round 1 private ranks 1–7 verified. Ranks 8+ await final private export. Missing rosters are provisional.",
+    "note": "Teams with unknown memberships are listed as pending rather than incorrectly awarded solo points. Placeholder members need verified names.",
     "scoring": "Team rank points: 1st 100, 2nd 90, 3rd 80, etc. (minimum 10). Each member gets team points ÷ registered team size.",
 }
 (OUT / "leaderboard.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
