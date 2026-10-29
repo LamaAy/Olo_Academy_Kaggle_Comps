@@ -10,6 +10,7 @@ from pathlib import Path
 COMPETITIONS = [
     ("Round 1 · Arabic Classification", "olo-academy-arabic-classification"),
     ("Round 2 · Reasoning-Intensive Retrieval", "olo-academy-reasoning-intensive-retrieval"),
+    ("Round 3 · Echoes of Recitation", "echoes-of-recitation"),
 ]
 OUT = Path("site")
 OUT.mkdir(exist_ok=True)
@@ -34,7 +35,25 @@ if roster_path.exists():
             if slug and team and member and normalized(member) not in {normalized(m) for m in roster[(slug, normalized(team))]}:
                 roster[(slug, normalized(team))].append(member)
 
+def get_private_round3_ranking():
+    # Use the frozen PRIVATE ranks, not a live/public Kaggle leaderboard.
+    with Path("data/round3_private.csv").open(encoding="utf-8-sig", newline="") as f:
+        rows = list(csv.DictReader(f))
+    teams = []
+    for row in rows:
+        rank = field(row, "Rank")
+        score = field(row, "Score")
+        members = [m.strip() for m in field(row, "TeamMemberUserNames").split(",") if m.strip()]
+        if not rank.isdigit() or int(rank) < 1 or not score or not members:
+            continue  # Ignore unranked benchmark entry.
+        teams.append({"team": field(row, "TeamName"), "score": score,
+                      "rank": int(rank), "members": members,
+                      "verified_private": True})
+    return sorted(teams, key=lambda t: t["rank"])
+
 def get_ranking(slug):
+    if slug == "echoes-of-recitation":
+        return get_private_round3_ranking()
     with tempfile.TemporaryDirectory() as temp:
         subprocess.run(["kaggle", "competitions", "leaderboard", slug,
                         "--download", "--path", temp, "--quiet"], check=True, capture_output=True, text=True)
@@ -98,7 +117,8 @@ unmapped = []
 for i, (title, slug) in enumerate(COMPETITIONS):
     try:
         teams = get_ranking(slug)
-        status = "live" if teams else "no_submissions"
+        status = ("final private" if slug == "echoes-of-recitation" and teams
+                  else "live" if teams else "no_submissions")
     except (subprocess.CalledProcessError, RuntimeError) as e:
         teams, status = [], "not_available"
         print(f"WARNING {slug}: {e}")

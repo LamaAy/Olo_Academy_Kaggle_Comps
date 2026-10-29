@@ -1,0 +1,1226 @@
+{
+  "competition": "OLO Academy · Cumulative Individual Rankings",
+  "updated_at": "2026-10-29T10:37:00+00:00",
+  "rounds": [
+    {
+      "title": "Round 1 · Arabic Classification",
+      "slug": "olo-academy-arabic-classification",
+      "url": "https://www.kaggle.com/competitions/olo-academy-arabic-classification/leaderboard",
+      "status": "live",
+      "teams": 20
+    },
+    {
+      "title": "Round 2 · Reasoning-Intensive Retrieval",
+      "slug": "olo-academy-reasoning-intensive-retrieval",
+      "url": "https://www.kaggle.com/competitions/olo-academy-reasoning-intensive-retrieval/leaderboard",
+      "status": "live",
+      "teams": 21
+    },
+    {
+      "title": "Round 3 · Echoes of Recitation",
+      "slug": "echoes-of-recitation",
+      "url": "https://www.kaggle.com/competitions/echoes-of-recitation/leaderboard",
+      "status": "final private",
+      "teams": 36
+    }
+  ],
+  "people": [
+    {
+      "member": "ferasalymani",
+      "total": 163.33,
+      "rounds": [
+        {
+          "team": "ِِAAF",
+          "rank": 2,
+          "score": "0.98",
+          "points": 30.0,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Feras Alymani",
+          "rank": 1,
+          "score": "0.65",
+          "points": 33.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Feras Alymani",
+          "rank": 1,
+          "score": "0.91",
+          "points": 100.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "member": "osamahharobi",
+      "total": 160.0,
+      "rounds": [
+        {
+          "team": "OSAMA HURUBI",
+          "rank": 4,
+          "score": "0.94",
+          "points": 70.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "OSAMA HURUBI",
+          "rank": 8,
+          "score": "0.48",
+          "points": 30.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "OSAMA HURUBI",
+          "rank": 5,
+          "score": "0.87",
+          "points": 60.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "member": "ahmed21alhejaili",
+      "total": 153.33,
+      "rounds": [
+        {
+          "team": "ِِAAF",
+          "rank": 2,
+          "score": "0.98",
+          "points": 30.0,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Feras Alymani",
+          "rank": 1,
+          "score": "0.65",
+          "points": 33.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Ahmed_21Alhejaili",
+          "rank": 2,
+          "score": "0.91",
+          "points": 90.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "member": "a7med404",
+      "total": 133.33,
+      "rounds": [
+        {
+          "team": "ِِAAF",
+          "rank": 2,
+          "score": "0.98",
+          "points": 30.0,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Feras Alymani",
+          "rank": 1,
+          "score": "0.65",
+          "points": 33.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "A7med_404",
+          "rank": 4,
+          "score": "0.88",
+          "points": 70.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "member": "ahmed507050",
+      "total": 120.0,
+      "rounds": [
+        {
+          "team": "Ahmed8529393",
+          "rank": 1,
+          "score": "0.98",
+          "points": 100.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Ahmed8529393",
+          "rank": 21,
+          "score": "0.06",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Ahmed8529393",
+          "rank": 13,
+          "score": "0.53",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "member": "hananalsufyani",
+      "total": 110.0,
+      "rounds": [
+        {
+          "team": "Hanan Alsufyani",
+          "rank": 16,
+          "score": "0.90",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Hanan- Razan- khadijah",
+          "rank": 2,
+          "score": "0.61",
+          "points": 90.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Hanan Alsufyani",
+          "rank": 29,
+          "score": "0.28",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "member": "naserdosary",
+      "total": 100.0,
+      "rounds": [
+        {
+          "team": "Naser dosary",
+          "rank": 20,
+          "score": "0.09",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Naser dosary",
+          "rank": 11,
+          "score": "0.38",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Naser dosary",
+          "rank": 3,
+          "score": "0.88",
+          "points": 80.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "member": "meganut",
+      "total": 93.33,
+      "rounds": [
+        {
+          "team": "Meganut",
+          "rank": 3,
+          "score": "0.96",
+          "points": 80.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Meganut",
+          "rank": 10,
+          "score": "0.45",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Meganut",
+          "rank": 8,
+          "score": "0.86",
+          "points": 10.0,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "member": "sarvii7",
+      "total": 90.0,
+      "rounds": [
+        {
+          "team": "SF73",
+          "rank": 5,
+          "score": "0.94",
+          "points": 30.0,
+          "team_size": 2,
+          "provisional": false
+        },
+        {
+          "team": "SF73",
+          "rank": 3,
+          "score": "0.60",
+          "points": 40.0,
+          "team_size": 2,
+          "provisional": false
+        },
+        {
+          "team": "SarahB7",
+          "rank": 9,
+          "score": "0.81",
+          "points": 20.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "member": "nawafkq",
+      "total": 83.33,
+      "rounds": [
+        {
+          "team": "best team",
+          "rank": 11,
+          "score": "0.93",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "NawafK70",
+          "rank": 4,
+          "score": "0.60",
+          "points": 70.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "NawafK70",
+          "rank": 22,
+          "score": "0.39",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "member": "fajersaeed",
+      "total": 80.0,
+      "rounds": [
+        {
+          "team": "SF73",
+          "rank": 5,
+          "score": "0.94",
+          "points": 30.0,
+          "team_size": 2,
+          "provisional": false
+        },
+        {
+          "team": "SF73",
+          "rank": 3,
+          "score": "0.60",
+          "points": 40.0,
+          "team_size": 2,
+          "provisional": false
+        },
+        {
+          "team": "Fajer saeed",
+          "rank": 10,
+          "score": "0.68",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "member": "lama28",
+      "total": 70.0,
+      "rounds": [
+        {
+          "team": "LNED",
+          "rank": 19,
+          "score": "0.74",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Nadoo + Lolo",
+          "rank": 6,
+          "score": "0.52",
+          "points": 50.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Nadoo + Lolo",
+          "rank": 18,
+          "score": "0.43",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "member": "fahadalmubarak7asiri",
+      "total": 63.33,
+      "rounds": [
+        {
+          "team": "best team",
+          "rank": 11,
+          "score": "0.93",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "Fahad Al-mubarak",
+          "rank": 5,
+          "score": "0.59",
+          "points": 60.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        null
+      ],
+      "rank": 13
+    },
+    {
+      "member": "thamereid",
+      "total": 60.0,
+      "rounds": [
+        null,
+        {
+          "team": "Thamer Eid",
+          "rank": 14,
+          "score": "0.33",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Thamer Eid",
+          "rank": 6,
+          "score": "0.87",
+          "points": 50.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "member": "eng454",
+      "total": 53.33,
+      "rounds": [
+        {
+          "team": "43u0",
+          "rank": 7,
+          "score": "0.96",
+          "points": 40.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Meganut",
+          "rank": 10,
+          "score": "0.45",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Meganut",
+          "rank": 8,
+          "score": "0.86",
+          "points": 10.0,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "member": "rynq18",
+      "total": 53.33,
+      "rounds": [
+        {
+          "team": "rynq-18",
+          "rank": 7,
+          "score": "0.94",
+          "points": 40.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Meganut",
+          "rank": 10,
+          "score": "0.45",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Meganut",
+          "rank": 8,
+          "score": "0.86",
+          "points": 10.0,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "member": "fahadasiri07",
+      "total": 40.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "Fahad_asiri07",
+          "rank": 7,
+          "score": "0.87",
+          "points": 40.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "member": "aryamalmohammedimis",
+      "total": 30.0,
+      "rounds": [
+        {
+          "team": "Trio Partners",
+          "rank": 6,
+          "score": "0.97",
+          "points": 16.67,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "LAO",
+          "rank": 16,
+          "score": "0.29",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Aryam Mohammed",
+          "rank": 20,
+          "score": "0.40",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "member": "lujainnn",
+      "total": 30.0,
+      "rounds": [
+        {
+          "team": "Lujainnn",
+          "rank": 9,
+          "score": "0.96",
+          "points": 20.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        null,
+        {
+          "team": "Lujainnn",
+          "rank": 24,
+          "score": "0.35",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "member": "ramaabdulsalam",
+      "total": 30.0,
+      "rounds": [
+        {
+          "team": "Rama Abdulsalam",
+          "rank": 13,
+          "score": "0.93",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Rama Abdulsalam",
+          "rank": 19,
+          "score": "0.08",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "@#4",
+          "rank": 15,
+          "score": "0.48",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "member": "rimasabunasser",
+      "total": 30.0,
+      "rounds": [
+        {
+          "team": "Rimas Al AbuNasser",
+          "rank": 10,
+          "score": "0.95",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "Rimas Al AbuNasser",
+          "rank": 13,
+          "score": "0.33",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Rimas AbuNasser",
+          "rank": 19,
+          "score": "0.41",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "member": "danahrakan",
+      "total": 25.0,
+      "rounds": [
+        {
+          "team": "Danah",
+          "rank": 12,
+          "score": "0.93",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "DanahRakan",
+          "rank": 12,
+          "score": "0.33",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "0.25",
+          "rank": 27,
+          "score": "0.29",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": false
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "member": "lynoo1234",
+      "total": 25.0,
+      "rounds": [
+        {
+          "team": "Trio Partners",
+          "rank": 6,
+          "score": "0.97",
+          "points": 16.67,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "LAO",
+          "rank": 16,
+          "score": "0.29",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "OL",
+          "rank": 23,
+          "score": "0.38",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": false
+        }
+      ],
+      "rank": 23
+    },
+    {
+      "member": "omnianasser99",
+      "total": 25.0,
+      "rounds": [
+        {
+          "team": "Trio Partners",
+          "rank": 6,
+          "score": "0.97",
+          "points": 16.67,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "LAO",
+          "rank": 16,
+          "score": "0.29",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "OL",
+          "rank": 23,
+          "score": "0.38",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": false
+        }
+      ],
+      "rank": 24
+    },
+    {
+      "member": "ayahqalo",
+      "total": 23.33,
+      "rounds": [
+        null,
+        {
+          "team": "Anfal",
+          "rank": 7,
+          "score": "0.50",
+          "points": 13.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Aayh Qalo",
+          "rank": 34,
+          "score": "0.23",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 25
+    },
+    {
+      "member": "jejex22",
+      "total": 23.33,
+      "rounds": [
+        null,
+        {
+          "team": "Anfal",
+          "rank": 7,
+          "score": "0.50",
+          "points": 13.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Jeje",
+          "rank": 30,
+          "score": "0.27",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 26
+    },
+    {
+      "member": "ghadialbishri",
+      "total": 21.67,
+      "rounds": [
+        {
+          "team": "Ghadi Alatif",
+          "rank": 17,
+          "score": "0.89",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": true
+        },
+        {
+          "team": "Leen",
+          "rank": 9,
+          "score": "0.47",
+          "points": 6.67,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Ghadi Alatif",
+          "rank": 28,
+          "score": "0.29",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 27
+    },
+    {
+      "member": "fawziaibrahim",
+      "total": 20.0,
+      "rounds": [
+        null,
+        {
+          "team": "Fawzia Ibrahim",
+          "rank": 18,
+          "score": "0.09",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Fawzia Ibrahim",
+          "rank": 11,
+          "score": "0.63",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 28
+    },
+    {
+      "member": "ranaalraddadi",
+      "total": 20.0,
+      "rounds": [
+        {
+          "team": "Rana Alraddadi",
+          "rank": 14,
+          "score": "0.92",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        null,
+        {
+          "team": "Rana Alraddadi",
+          "rank": 33,
+          "score": "0.24",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 29
+    },
+    {
+      "member": "reenamohammed",
+      "total": 20.0,
+      "rounds": [
+        null,
+        {
+          "team": "Reena Mohammed",
+          "rank": 15,
+          "score": "0.31",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Reena Mohammed",
+          "rank": 21,
+          "score": "0.40",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 30
+    },
+    {
+      "member": "shathaadelmahrous",
+      "total": 20.0,
+      "rounds": [
+        {
+          "team": "shatha adel mahrous",
+          "rank": 18,
+          "score": "0.88",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        {
+          "team": "shatha adel mahrous",
+          "rank": 17,
+          "score": "0.25",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        null
+      ],
+      "rank": 31
+    },
+    {
+      "member": "leensa12",
+      "total": 16.67,
+      "rounds": [
+        null,
+        {
+          "team": "Leen",
+          "rank": 9,
+          "score": "0.47",
+          "points": 6.67,
+          "team_size": 3,
+          "provisional": false
+        },
+        {
+          "team": "Leen",
+          "rank": 14,
+          "score": "0.51",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 32
+    },
+    {
+      "member": "anfalcs",
+      "total": 13.33,
+      "rounds": [
+        null,
+        {
+          "team": "Anfal",
+          "rank": 7,
+          "score": "0.50",
+          "points": 13.33,
+          "team_size": 3,
+          "provisional": false
+        },
+        null
+      ],
+      "rank": 33
+    },
+    {
+      "member": "aziz2232",
+      "total": 13.33,
+      "rounds": [
+        {
+          "team": "best team",
+          "rank": 11,
+          "score": "0.93",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": true
+        },
+        null,
+        {
+          "team": "عبدالعزيز أبوهاشم",
+          "rank": 25,
+          "score": "0.34",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 34
+    },
+    {
+      "member": "layanalmashhour",
+      "total": 11.67,
+      "rounds": [
+        {
+          "team": "Ghadi Alatif",
+          "rank": 17,
+          "score": "0.89",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": true
+        },
+        {
+          "team": "Leen",
+          "rank": 9,
+          "score": "0.47",
+          "points": 6.67,
+          "team_size": 3,
+          "provisional": false
+        },
+        null
+      ],
+      "rank": 35
+    },
+    {
+      "member": "aishahrb",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "Aisha Hrb",
+          "rank": 35,
+          "score": "0.21",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 36
+    },
+    {
+      "member": "anfalalraddadi",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "AnfalAlraddadi",
+          "rank": 32,
+          "score": "0.25",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 37
+    },
+    {
+      "member": "azizisbast",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "عبدالعزيز ابوهاشم",
+          "rank": 36,
+          "score": "0.20",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 38
+    },
+    {
+      "member": "faialjasir",
+      "total": 10.0,
+      "rounds": [
+        {
+          "team": "Faialjasir",
+          "rank": 15,
+          "score": "0.90",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": true
+        },
+        null,
+        null
+      ],
+      "rank": 39
+    },
+    {
+      "member": "mthayel11",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "mthayel",
+          "rank": 31,
+          "score": "0.26",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "member": "nado00lned",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "Nado00_LNED",
+          "rank": 16,
+          "score": "0.47",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 41
+    },
+    {
+      "member": "qruocn",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "Ahlam",
+          "rank": 17,
+          "score": "0.44",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 42
+    },
+    {
+      "member": "ra2221",
+      "total": 10.0,
+      "rounds": [
+        null,
+        {
+          "team": "RA2221",
+          "rank": 20,
+          "score": "0.08",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        null
+      ],
+      "rank": 43
+    },
+    {
+      "member": "sarabakri",
+      "total": 10.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "sara Bakri",
+          "rank": 26,
+          "score": "0.34",
+          "points": 10.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 44
+    },
+    {
+      "member": "asaeyl202",
+      "total": 5.0,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "0.25",
+          "rank": 27,
+          "score": "0.29",
+          "points": 5.0,
+          "team_size": 2,
+          "provisional": false
+        }
+      ],
+      "rank": 45
+    },
+    {
+      "member": "dalalalmuteq",
+      "total": 3.33,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "lujain _ Ghada _  Dalal",
+          "rank": 12,
+          "score": "0.54",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 46
+    },
+    {
+      "member": "ghadaasiri",
+      "total": 3.33,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "lujain _ Ghada _  Dalal",
+          "rank": 12,
+          "score": "0.54",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 47
+    },
+    {
+      "member": "lmar890",
+      "total": 3.33,
+      "rounds": [
+        null,
+        null,
+        {
+          "team": "lujain _ Ghada _  Dalal",
+          "rank": 12,
+          "score": "0.54",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": false
+        }
+      ],
+      "rank": 48
+    }
+  ],
+  "unmapped": [],
+  "note": "Teams with unknown memberships are listed as pending rather than incorrectly awarded solo points. Placeholder members need verified names.",
+  "scoring": "Team rank points: 1st 100, 2nd 90, 3rd 80, etc. (minimum 10). Each member gets team points ÷ registered team size."
+}
