@@ -1,6 +1,6 @@
 {
   "competition": "OLO Academy · Cumulative Individual Rankings",
-  "updated_at": "2026-10-29T11:14:37+00:00",
+  "updated_at": "2026-10-29T11:50:21+00:00",
   "rounds": [
     {
       "title": "Round 1 · Arabic Classification",
@@ -212,6 +212,37 @@
       "rank": 6
     },
     {
+      "member": "fahadasiri07",
+      "total": 103.33,
+      "rounds": [
+        {
+          "team": "best team",
+          "rank": 11,
+          "score": "0.93",
+          "points": 3.33,
+          "team_size": 3,
+          "provisional": true
+        },
+        {
+          "team": "Fahad Al-mubarak",
+          "rank": 5,
+          "score": "0.59",
+          "points": 60.0,
+          "team_size": 1,
+          "provisional": false
+        },
+        {
+          "team": "Fahad_asiri07",
+          "rank": 7,
+          "score": "0.87",
+          "points": 40.0,
+          "team_size": 1,
+          "provisional": false
+        }
+      ],
+      "rank": 7
+    },
+    {
       "member": "naserdosary",
       "total": 100.0,
       "rounds": [
@@ -240,7 +271,7 @@
           "provisional": false
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "member": "meganut",
@@ -271,7 +302,7 @@
           "provisional": false
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "member": "sarvii7",
@@ -302,7 +333,7 @@
           "provisional": false
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "member": "nawafkq",
@@ -333,7 +364,7 @@
           "provisional": false
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "member": "fajersaeed",
@@ -364,7 +395,7 @@
           "provisional": false
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "member": "lama28",
@@ -394,30 +425,6 @@
           "team_size": 1,
           "provisional": false
         }
-      ],
-      "rank": 12
-    },
-    {
-      "member": "fahadalmubarak7asiri",
-      "total": 63.33,
-      "rounds": [
-        {
-          "team": "best team",
-          "rank": 11,
-          "score": "0.93",
-          "points": 3.33,
-          "team_size": 3,
-          "provisional": true
-        },
-        {
-          "team": "Fahad Al-mubarak",
-          "rank": 5,
-          "score": "0.59",
-          "points": 60.0,
-          "team_size": 1,
-          "provisional": false
-        },
-        null
       ],
       "rank": 13
     },
@@ -508,23 +515,6 @@
       "rank": 16
     },
     {
-      "member": "fahadasiri07",
-      "total": 40.0,
-      "rounds": [
-        null,
-        null,
-        {
-          "team": "Fahad_asiri07",
-          "rank": 7,
-          "score": "0.87",
-          "points": 40.0,
-          "team_size": 1,
-          "provisional": false
-        }
-      ],
-      "rank": 17
-    },
-    {
       "member": "aryamalmohammedimis",
       "total": 30.0,
       "rounds": [
@@ -553,7 +543,7 @@
           "provisional": false
         }
       ],
-      "rank": 18
+      "rank": 17
     },
     {
       "member": "lujainnn",
@@ -577,7 +567,7 @@
           "provisional": false
         }
       ],
-      "rank": 19
+      "rank": 18
     },
     {
       "member": "ramaabdulsalam",
@@ -608,7 +598,7 @@
           "provisional": false
         }
       ],
-      "rank": 20
+      "rank": 19
     },
     {
       "member": "rimasabunasser",
@@ -639,7 +629,7 @@
           "provisional": false
         }
       ],
-      "rank": 21
+      "rank": 20
     },
     {
       "member": "danahrakan",
@@ -670,7 +660,7 @@
           "provisional": false
         }
       ],
-      "rank": 22
+      "rank": 21
     },
     {
       "member": "lynoo1234",
@@ -701,7 +691,7 @@
           "provisional": false
         }
       ],
-      "rank": 23
+      "rank": 22
     },
     {
       "member": "omnianasser99",
@@ -732,7 +722,7 @@
           "provisional": false
         }
       ],
-      "rank": 24
+      "rank": 23
     },
     {
       "member": "ayahqalo",
@@ -756,7 +746,7 @@
           "provisional": false
         }
       ],
-      "rank": 25
+      "rank": 24
     },
     {
       "member": "jejex22",
@@ -780,7 +770,7 @@
           "provisional": false
         }
       ],
-      "rank": 26
+      "rank": 25
     },
     {
       "member": "ghadialbishri",
@@ -811,7 +801,7 @@
           "provisional": false
         }
       ],
-      "rank": 27
+      "rank": 26
     },
     {
       "member": "fawziaibrahim",
@@ -835,7 +825,7 @@
           "provisional": false
         }
       ],
-      "rank": 28
+      "rank": 27
     },
     {
       "member": "ranaalraddadi",
@@ -859,7 +849,7 @@
           "provisional": false
         }
       ],
-      "rank": 29
+      "rank": 28
     },
     {
       "member": "reenamohammed",
@@ -883,7 +873,7 @@
           "provisional": false
         }
       ],
-      "rank": 30
+      "rank": 29
     },
     {
       "member": "shathaadelmahrous",
@@ -907,7 +897,7 @@
         },
         null
       ],
-      "rank": 31
+      "rank": 30
     },
     {
       "member": "leensa12",
@@ -931,7 +921,7 @@
           "provisional": false
         }
       ],
-      "rank": 32
+      "rank": 31
     },
     {
       "member": "anfalcs",
@@ -948,7 +938,7 @@
         },
         null
       ],
-      "rank": 33
+      "rank": 32
     },
     {
       "member": "aziz2232",
@@ -972,7 +962,7 @@
           "provisional": false
         }
       ],
-      "rank": 34
+      "rank": 33
     },
     {
       "member": "layanalmashhour",
@@ -996,7 +986,7 @@
         },
         null
       ],
-      "rank": 35
+      "rank": 34
     },
     {
       "member": "aishahrb",
@@ -1013,7 +1003,7 @@
           "provisional": false
         }
       ],
-      "rank": 36
+      "rank": 35
     },
     {
       "member": "anfalalraddadi",
@@ -1030,7 +1020,7 @@
           "provisional": false
         }
       ],
-      "rank": 37
+      "rank": 36
     },
     {
       "member": "azizisbast",
@@ -1047,7 +1037,7 @@
           "provisional": false
         }
       ],
-      "rank": 38
+      "rank": 37
     },
     {
       "member": "faialjasir",
@@ -1064,7 +1054,7 @@
         null,
         null
       ],
-      "rank": 39
+      "rank": 38
     },
     {
       "member": "mthayel11",
@@ -1081,7 +1071,7 @@
           "provisional": false
         }
       ],
-      "rank": 40
+      "rank": 39
     },
     {
       "member": "nado00lned",
@@ -1098,7 +1088,7 @@
           "provisional": false
         }
       ],
-      "rank": 41
+      "rank": 40
     },
     {
       "member": "qruocn",
@@ -1115,7 +1105,7 @@
           "provisional": false
         }
       ],
-      "rank": 42
+      "rank": 41
     },
     {
       "member": "ra2221",
@@ -1132,7 +1122,7 @@
         },
         null
       ],
-      "rank": 43
+      "rank": 42
     },
     {
       "member": "sarabakri",
@@ -1149,7 +1139,7 @@
           "provisional": false
         }
       ],
-      "rank": 44
+      "rank": 43
     },
     {
       "member": "asaeyl202",
@@ -1166,7 +1156,7 @@
           "provisional": false
         }
       ],
-      "rank": 45
+      "rank": 44
     },
     {
       "member": "dalalalmuteq",
@@ -1183,7 +1173,7 @@
           "provisional": false
         }
       ],
-      "rank": 46
+      "rank": 45
     },
     {
       "member": "ghadaasiri",
@@ -1200,7 +1190,7 @@
           "provisional": false
         }
       ],
-      "rank": 47
+      "rank": 46
     },
     {
       "member": "lmar890",
@@ -1217,7 +1207,7 @@
           "provisional": false
         }
       ],
-      "rank": 48
+      "rank": 47
     }
   ],
   "unmapped": [],

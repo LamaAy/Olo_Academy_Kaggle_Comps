@@ -169,6 +169,8 @@ for i, (title, slug) in enumerate(COMPETITIONS):
             continue  # Unknown number of members: cannot allocate individual points fairly.
         share = round(rank_points(t["rank"]) / team_size, 2)
         for member in named_members:
+            if normalized(member) in ("fahadalmubarak7asiri", "fahadasiri07"):
+                member = "fahadasiri07"
             key = normalized(member)
             person = persons.setdefault(key, {"member": member, "total": 0.0, "rounds": [None] * len(COMPETITIONS)})
             person["total"] = round(person["total"] + share, 2)
